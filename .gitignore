@@ -1,0 +1,11 @@
+.git
+all-MiniLM-L6-v2
+*.pth
+*.jpg
+*.png
+pretrain
+output
+analysis_output
+datasets
+__pycache__
+graph_maker/skysa_graph.json
