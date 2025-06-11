@@ -1,0 +1,21 @@
+_BASE_: base.yaml
+DATASETS:
+  TRAIN: ("skysa_graph_train",)
+  TEST: ('isaid_test',)
+  RETRIEVAL_AUGMENTATION: False
+  OPEN_WORLD_INTERPRETATION: False
+REGION_CONTRAST_WEIGHT: 0.0
+PIXEL_CONTRAST_WEIGHT: 1.0
+REGULAR_WEIGHT: 0.0
+CONTRAST_SCALE: 1
+SOLVER:
+  TEST_IMS_PER_BATCH: 1
+  BASE_LR: 0.0002
+  MAX_ITER: 40000
+  CHECKPOINT_PERIOD: 40000
+OUTPUT_DIR: "./output/default"
+MODEL:
+  META_ARCHITECTURE: SkySenseO_DEMO
+  SEM_SEG_HEAD:
+    CLIP_FINETUNE: "full"
+  WEIGHTS: "output/loss_weight/regular/wo_rag/isaid_potsdam_fast_sior_sota_vaihingen_loveda_sky5k/model_final.pth"
