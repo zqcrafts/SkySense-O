@@ -1,0 +1,27 @@
+clip:
+  embed_dim: 1024
+  init_logit_bias: null
+  vision_cfg:
+    arch: 'huge'
+    img_size: 224
+    patch_size: 4
+    in_channels: 3
+    window_size: [8, 8, 8, 16]
+    drop_rate: 0.
+    drop_path_rate: 0.2
+    out_indices: [0, 1, 2, 3]
+    use_abs_pos_embed: False
+    interpolate_mode: 'bicubic'
+    with_cp: False
+    frozen_stages: -1
+    norm_eval: False
+    pad_small_map: False
+    pretrained_window_sizes: [0, 0, 0, 8]
+    init_cfg: null
+    pool_dim: 2816
+  text_cfg:
+    context_length: 77
+    vocab_size: 49408
+    width: 1024
+    heads: 16
+    layers: 24
