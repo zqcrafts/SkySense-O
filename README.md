@@ -52,17 +52,19 @@ This is a model aggregated with CLIP and SAM version of SkySense for remote sens
 ## News 🚀
 - `2025/02/27`: 🔥 SkySense-O has been accepted to <strong>CVPR2025</strong> !
 - `2025/04/08`: 🔥 We introduce <strong>SkySense-O</strong>, demonstrating impressive zero-shot capabilities on a thorough evaluation encompassing 14 datasets, from recognizing to reasoning and classification to localization. Specifically, it outperforms the latest models such as SegEarth-OV, GeoRSCLIP, and VHM by a large margin, i.e., <strong>11.95\%, 8.04\% and 3.55\%</strong> on average respectively.
+- `2025/06/10`: 🔥 We release the training and evaluation code.
+- `2025/06/11`: 🔥 We release the checkpoints and demo. Welcome to try!
 
 ## TODO 📝
-
-- [x] Release the training and evaluation scripts code.
-- [ ] Release the checkpoints and demo. (before 6.15)
-- [ ] Release the dataset. (before 6.22)
+- [ ] Release the Sky-SA dataset. (before 6.22)
 - [ ] Release the code for data engine. (before 6.22)
 
+## Try Our Demo 🕹️
+1. Install dependencies.
+2. Download the demo checkpoint. [[ckpt]](https://huggingface.co/zqcraft/SkySense-O/tree/main)
+3. Run the demo according to the demo guide. [[docs]](demo/readme.md)
 
 ## Dependencies and Installation
-
 
 ##### 1. install detectron2
 ```
@@ -75,12 +77,13 @@ cd SkySense-O
 pip install -r require.txt
 pip install accelerate -U
 ```
+
 ## Model Training and Evaluation
 ```
 sh run_train.sh 
 ```
-
-
+To evaluate only, modify the script as follows: add `--eval-only` to the command in `run_train.sh`. The line should read: `python train_net.py --eval-only`.
+Then execute above command.
 
 ## Results
 
