@@ -54,10 +54,11 @@ This is a model aggregated with CLIP and SAM version of SkySense for remote sens
 - `2025/04/08`: 🔥 We introduce <strong>SkySense-O</strong>, demonstrating impressive zero-shot capabilities on a thorough evaluation encompassing 14 datasets, from recognizing to reasoning and classification to localization. Specifically, it outperforms the latest models such as SegEarth-OV, GeoRSCLIP, and VHM by a large margin, i.e., <strong>11.95\%, 8.04\% and 3.55\%</strong> on average respectively.
 
 ## TODO 📝
-- [ ] Release the checkpoints, inference codes and demo.
-- [ ] Release the dataset and training scripts.
-- [ ] Release the evaluation code.
-- [ ] Release the code for data generation pipeline.
+
+- [x] Release the training and evaluation scripts code.
+- [ ] Release the checkpoints and demo. (before 6.15)
+- [ ] Release the dataset. (before 6.22)
+- [ ] Release the code for data engine. (before 6.22)
 
 
 ## Dependencies and Installation
