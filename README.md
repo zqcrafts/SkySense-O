@@ -75,10 +75,6 @@ cd SkySense-O
 pip install -r require.txt
 pip install accelerate -U
 ```
-## Quick Inference
-```
-sh demo.sh
-```
 ## Model Training and Evaluation
 ```
 sh run_train.sh 
