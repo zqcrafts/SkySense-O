@@ -1,5 +1,5 @@
 <div align="center" style="margin-bottom: 40px;">
-  <img src="docs/figures/icon.png" width="600" alt="image">
+  <img src="docs/icon.png" width="600" alt="image">
 </div>
 
 
@@ -46,7 +46,7 @@ This is a model aggregated with CLIP and SAM version of SkySense for remote sens
     </h4>
 </div> -->
 
-<img src="docs/figures/teaser.png" width="100%"/>
+<img src="docs/teaser.png" width="100%"/>
 <!-- Visualization and performance of SegEarth-OV on open-vocabulary semantic segmentation of remote sensing images. We evaluate on 17 remote sensing datasets (including semantic segmentation, building extraction, road extraction, and flood detection tasks), and our SegEarth-OV consistently generates high-quality segmentation masks. -->
 
 ## News 🚀
@@ -74,25 +74,13 @@ cd SkySense-O
 pip install -r require.txt
 pip install accelerate -U
 ```
-##### 3. Sky-SA Dataset preparation
-<!-- We include the following dataset configurations in this repo: 
-1) `Semantic Segmentation`: OpenEarthMap, LoveDA, iSAID, Potsdam, Vaihingen, UAVid<sup>img</sup>, UDD5, VDD
-2) `Building Extraction`: WHU<sup>Aerial</sup>, WHU<sup>Sat.Ⅱ</sup>, Inria, xBD<sup>pre</sup>
-3) `Road Extraction`: CHN6-CUG, DeepGlobe, Massachusetts, SpaceNet
-4) `Water Extraction`: WBS-SI -->
-Please refer to [data_engine.md](data_engine.md) for details of Sky-SA dataset.
-
 ## Quick Inference
 ```
 sh demo.sh
 ```
-## Model Training
+## Model Training and Evaluation
 ```
-sh run_train.sh
-```
-## Model Evaluation
-```
-sh run_eval.sh
+sh run_train.sh 
 ```
 
 
@@ -100,7 +88,7 @@ sh run_eval.sh
 ## Results
 
 <div align="center">
-<img src="docs/figures/exer.png" width="95%"/>
+<img src="docs/exer.png" width="95%"/>
 </div>
 
 ## Citation
@@ -109,7 +97,6 @@ sh run_eval.sh
 @article{zhu2024skysenseo,
   title={SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling},
   author={Qi Zhu, Jiangwei Lao, Deyi Ji, Junwei Luo, Kang Wu, Yingying Zhang, Lixiang Ru, Jian Wang, Jingdong Chen, Ming Yang, Dong Liu, Feng Zhao},
-  journal={arXiv preprint },
   year={2025}
 }
 ```
