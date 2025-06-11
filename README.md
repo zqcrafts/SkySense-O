@@ -1,20 +1,7 @@
-<div align="center">
-<head>
-  <style>
-    .centered-content {
-      text-align: center;  /* 居中对齐 */
-    }
-    .image {
-      margin-bottom: -40px; /* 图片与下方内容的间距 */
-    }
-  </style>
-</head>
-<body>
-  <div class="centered-content">
-    <img class="image" width="600" alt="image" src="docs/figures/icon.png">
-    <br>
-  </div>
-</body>
+<div align="center" style="margin-bottom: 40px;">
+  <img src="docs/figures/icon.png" width="600" alt="image">
+</div>
+
 
 <div style="position: relative; text-align: center;">
   <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 100%; height: 0; border-top: 4px dashed gray; z-index: 10;"></div>
