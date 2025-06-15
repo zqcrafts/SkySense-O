@@ -58,16 +58,6 @@ def load_graph():
             class_set.add(source_entity)
             class_set.add(target_entity)
 
-        # wenshuo方案：取score分数从小往大排序的前150个为负样本，后面的为正样本
-        # TODO: 选取方式有待优化
-        # for key in graph_.keys():
-        #     others = sorted(graph_[key], key=lambda x: x[1])
-        #     for name, score in others:
-        #         if len(graph[key]['negative']) >= 150:
-        #             graph[key]['positive'].add(name)
-        #         else:
-        #             graph[key]['negative'].add(name)
-
         # 新方案：选取除了5-8分的难样本作为负样本
         for key in graph_.keys():
             others = sorted(graph_[key], key=lambda x: x[1])
