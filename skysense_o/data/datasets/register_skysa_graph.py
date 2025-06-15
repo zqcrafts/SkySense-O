@@ -97,58 +97,7 @@ def load_graph():
             class_set.add(source_entity)
             class_set.add(target_entity)
 
-        # wenshuo方案：取score分数从小往大排序的前150个为负样本，后面的为正样本
-        # TODO: 选取方式有待优化
-        # for key in graph_with_score.keys():
-        #     others = sorted(graph_with_score[key], key=lambda x: x[1])
-        #     for name, score in others:
-        #         if len(graph[key]['negative']) >= 150:
-        #             graph[key]['positive'].add(name)
-        #         else:
-        #             graph[key]['negative'].add(name)
-
-        # 新方案：选取除了5-8分的难样本作为负样本
-        """
-        *================================================================*
-                Choose Positive and Negative Samples by Threshold
-        *================================================================*
-        Hypara - List: [neg_thre_bottom, neg_thre_top, pos_thre_bottom, pos_thre_top] in [1, 10]   
-        the sample whose score is in [neg_thre_bottom, neg_thre_top] is seen as **negative sample**.
-                                ; in [pos_thre_bottom, pos_thre_top] is seen as **positive sample**. 
         
-        Exer_1: Wo/ rag:
-        sh run_train.sh -n base_hyper_5_8_9_10 -h "[5,8,9,10]"
-        ------------------------------------------------------------------
-            Hypara ablation   |  isaid | potsdam | fast |  sior  |  sota |      
-        ------------------------------------------------------------------
-        [1,8,9,10] (Default)  |  11.8  |  48.1  |  2.4  |  10.7  |  9.0  |   这个效果明显很差，负样本选多了
-        [1,5,9,10]            |  23.1  |  54.6  |  3.4  |  24.3  |  15.4 |   稍微负样本放宽一些就好了
-        [1,3,9,10]            |  18.1  |  55.7  |  2.9  |  17.4  |  12.9 |   继续放宽肯定又不好了
-        [1,3,7,10]            |  20.3  |  49.6  |  4.0  |  22.9  |  15.3 |   正样本放宽一点还可以
-        ------------------------------------------------------------------
-        conclusion: maybe [1, 5, 7, 10] is better
-        ------------------------------------------------------------------
-        [1,5,7,10]            |  
-        ------------------------------------------------------------------
-        
-        Exer_2: W/ rag:
-        sh run_train.sh -a -n base_hyper_5_8_9_10_a -h "[5,8,9,10]"
-        ------------------------------------------------------------------
-            Hypara ablation   |  isaid | potsdam | fast |  sior  |  sota |      
-        ------------------------------------------------------------------
-        [5,8,9,10]            |  26.7(负样本数量不够) |  
-        [1,8,9,10]  (Default) |  37.0  |
-        [1,7,9,10]            |  36.7  |
-        [1,5,9,10]            |  37.1  |
-        [1,3,9,10]  (Choose)  |  38.8  |
-        [1,5,7,10]            |  36.2  |
-        ------------------------------------------------------------------
-        前8k-iter到最大值了,后面越训越低,低到20+了
-        这么看isaid低的原因也不是超参数了呀。
-        难道就是那些噪声影响的？你随机取100 batch，肯定有噪声。
-        调整一下batch的数量试试。
-
-        """
         neg_thre_bottom, neg_thre_top, pos_thre_bottom, pos_thre_top = sampling_hyper
         for key in graph_with_score.keys():
             others = sorted(graph_with_score[key], key=lambda x: x[1])
