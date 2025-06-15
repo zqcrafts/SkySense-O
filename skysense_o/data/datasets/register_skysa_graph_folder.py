@@ -58,7 +58,6 @@ def load_graph():
             class_set.add(source_entity)
             class_set.add(target_entity)
 
-        # 新方案：选取除了5-8分的难样本作为负样本
         for key in graph_.keys():
             others = sorted(graph_[key], key=lambda x: x[1])
             for name, score in others:
@@ -95,7 +94,6 @@ def load_sem_seg(file_path):
                     continue
                 negative = negative & graph[positive[i]]['negative']
             
-            # TODO 添加正样本的选取，如果选上应该可以避免同语义的冲突
             if len(negative) > 0:
                 negative = list(
                     np.random.choice(list(negative), size=min(100 - len(positive), len(negative)), replace=False))
