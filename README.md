@@ -9,11 +9,9 @@
 
 <!-- <div style="position: relative; text-align: center;"> <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 100%; height: 4px; background-color: gray; z-index: 10;"></div> </div>  -->
 
-
-
 <!-- <h3>✨ In CVPR 2025 <a href="https://arxiv.org/abs/2410.01768" target='_blank'>[arXiv]</a>  ✨</h3> -->
 
-### SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling  <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf" target='_blank'>[Paper]</a> 
+### SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling (CVPR 2025)  <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf" target='_blank'>[Paper]</a> 
 
 
 </div>
