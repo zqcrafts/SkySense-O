@@ -47,7 +47,10 @@ This is a model aggregated with CLIP and SAM version of SkySense for remote sens
 </div> -->
 
 <img src="docs/teaser.png" width="100%"/>
-<!-- Visualization and performance of SegEarth-OV on open-vocabulary semantic segmentation of remote sensing images. We evaluate on 17 remote sensing datasets (including semantic segmentation, building extraction, road extraction, and flood detection tasks), and our SegEarth-OV consistently generates high-quality segmentation masks. -->
+
+The primary advantage of our model, in comparison to [SAM](https://segment-anything.com/demo) and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO), lies in its ability to deliver output with pixel-level spatial high density and more expansive semantic labeling as following.
+
+
 
 ## News 🚀
 - `2025/02/27`: 🔥 SkySense-O has been accepted to <strong>CVPR2025</strong> !
