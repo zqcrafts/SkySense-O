@@ -45,7 +45,9 @@ The primary advantage of our model, <strong style="color:red">in comparison to [
     <strong style="color: red; font-size: 18px;"> "Comparison of Sky-SA and other datasets" </strong>
 </div> -->
 
-<img src="docs/compare.png" width="100%"/>
+<div align="center">
+    <img src="docs/compare.png" width="82%" />
+</div>
 
 
 ## News 🚀
