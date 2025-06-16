@@ -37,18 +37,9 @@ This is a model aggregated with CLIP and SAM version of SkySense for remote sens
     <strong style="color: red; font-size: 18px;"> "CLIP and SAM Version of SkySense for Remote Sensing Anything" </strong>
 </div> -->
 
-</div>
-
-
-<!-- <div>
-    <h4 align="center">
-        • <a href="https://likyoo.github.io/SegEarth-OV/" target='_blank'>[Project]</a> • <a href="https://arxiv.org/abs/2410.01768" target='_blank'>[arXiv]</a> • <a href="https://colab.research.google.com/drive/1a-NNz_2maesvszk4Xff5PKY02_moPqt6#scrollTo=Pz9QGEcFBGtK" target='_blank'>[Colab]</a> •
-    </h4>
-</div> -->
-
 <img src="docs/teaser.png" width="100%"/>
 
-The primary advantage of our model, in comparison to [SAM](https://segment-anything.com/demo) and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO), lies in its ability to deliver output with pixel-level spatial high density and more expansive semantic labeling as following.
+The primary advantage of our model, <strong style="color:red">in comparison to [SAM](https://segment-anything.com/demo) and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)</strong>, lies in its ability to deliver output with pixel-level spatial high density and more expansive semantic labeling as following.
 
 
 
