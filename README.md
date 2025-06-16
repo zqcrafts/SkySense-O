@@ -41,6 +41,11 @@ This is a model aggregated with CLIP and SAM version of SkySense for remote sens
 
 The primary advantage of our model, <strong style="color:red">in comparison to [SAM](https://segment-anything.com/demo) and [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)</strong>, lies in its ability to deliver output with pixel-level spatial high density and more expansive semantic labeling as following.
 
+<!-- <div>
+    <strong style="color: red; font-size: 18px;"> "Comparison of Sky-SA and other datasets" </strong>
+</div> -->
+
+<img src="docs/compare.png" width="100%"/>
 
 
 ## News 🚀
