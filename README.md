@@ -53,6 +53,7 @@ The primary advantage of our model, <strong style="color:red">in comparison to [
 - `2025/04/08`: 🔥 We introduce <strong>SkySense-O</strong>, demonstrating impressive zero-shot capabilities on a thorough evaluation encompassing 14 datasets, from recognizing to reasoning and classification to localization. Specifically, it outperforms the latest models such as SegEarth-OV, GeoRSCLIP, and VHM by a large margin, i.e., <strong>11.95\%, 8.04\% and 3.55\%</strong> on average respectively.
 - `2025/06/10`: 🔥 We release the training and evaluation code.
 - `2025/06/11`: 🔥 We release the checkpoints and demo. Welcome to try!
+- `2025/06/17`: 🔥 We release the checkpoints of SkySense-CLIP[[ckpt]](https://huggingface.co/zqcraft/SkySense-O/tree/main) for future research.
 
 ## TODO 📝
 - [ ] Release the Sky-SA dataset. (before 6.22)
