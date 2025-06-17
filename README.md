@@ -1,3 +1,5 @@
+### SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling (CVPR 2025)  <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf" target='_blank'>[Paper]</a> 
+
 <div align="center" style="margin-bottom: 40px;">
   <img src="docs/icon.png" width="600" alt="image">
 </div>
@@ -11,7 +13,7 @@
 
 <!-- <h3>✨ In CVPR 2025 <a href="https://arxiv.org/abs/2410.01768" target='_blank'>[arXiv]</a>  ✨</h3> -->
 
-### SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling (CVPR 2025)  <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf" target='_blank'>[Paper]</a> 
+
 
 
 </div>
