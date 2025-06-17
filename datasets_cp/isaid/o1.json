@@ -1,0 +1,18 @@
+{
+"others": ["way", "tree", "meadow", "clearing", "tenement", "wasteland", "lane", "concrete floor", "highroad", "plowland", "field", "water", "wind turbine", "lawn", "ridge", "fence", "riverbank", "bush", "green belt", "beach", "conduit", "aerodrome", "ditch", "ocean", "graveyard", "rock", "sewage treatment plant", "stadium", "vegetation", "shore", "dune", "mountainous region", "impoundment", "isolation strip", "misc", "sand", "plot", "playground", "building", "rest area", "workshop", "site", "planting region", "concrete road", "massif", "dam", "crop", "riffle", "seaboard", "train track", "block", "bench", "forest land", "debris area", "terraced field", "river bed", "plastic greenhouse", "separator", "watercourse", "street lamp", "grandstand", "hamlet", "gravel land", "park", "rockily", "container", "airstrip", "dumping ground", "solar power plant", "stash", "gazebo", "reservoir", "equipment", "industrial park", "green plant", "rill", "pitcher", "canal", "cloud", "the helipad", "seaway", "railway station", "mountain road", "roof", "refinery", "forest", "road", "orchard", "solar panel", "golf course", "greenhouse", "path", "factory", "expressway", "rail", "tarmac", "unpaved road", "runway", "brushwood", "island", "mountain range", "cistern", "unit", "substation", "courtyard", "desert", "grove", "living quarter", "airstrip", "runway", "aerodrome"],
+"ship": ["the ship", "boat"],
+"storage tank": ["storage tank"],
+"baseball infield": [],
+"tennis court": ["tennis court"],
+"basketball court": ["basketball court"],
+"ground track field": ["ground track field"],
+"bridge": ["bridge"],
+"large vehicle": ["train"],
+"small vehicle": [],
+"helicopter": [],
+"swimming pool": [],
+"roundabout": [],
+"soccer ball field": ["soccer field"],
+"plane": ["aeroplane"],
+"harbor": []
+}

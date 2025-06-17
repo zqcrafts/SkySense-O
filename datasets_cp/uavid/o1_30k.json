@@ -1,0 +1,44 @@
+{
+    "Others": [
+        "wasteland", "water", "ridge", "riverbank", "beach", "conduit", "ditch", 
+        "ocean", "graveyard", "rock", "shore", "mountainous region", 
+        "impoundment", "misc", "sand", "plot", "riffle", "seaboard", 
+        "debris area", "river bed", "separator", "watercourse", "rockily", 
+        "dumping ground", "stash", "equipment", "rill", "pitcher", "canal", 
+        "cloud", "seaway", "quay", "island", "mountain range", "desert"
+    ],
+    "Building": [
+        "structure", "tenement", "concrete floor", "wind turbine", "fence", 
+        "tennis court", "baseball field", "bridge", "aerodrome", "soccer field", 
+        "sewage treatment plant", "storage tank", "stadium", "plastic greenhouse", 
+        "street lamp", "grandstand", "playground", "building", "workshop", "dam", 
+        "block", "bench", "container", "solar power plant", "gazebo", "reservoir", 
+        "industrial park", "the helipad", "railway station", "roof", "refinery", 
+        "solar panel", "greenhouse", "basketball court", "factory", "cistern", 
+        "unit", "substation", "courtyard"
+    ],
+    "Road": [
+        "way", "parking lot", "lane", "highroad", "isolation strip", 
+        "roundabout", "rest area", "concrete road", "train track", 
+        "parking area", "airstrip", "mountain road", "road", "expressway", 
+        "rail", "tarmac", "unpaved road", "parking space", "runway", "path"
+    ],
+    "Static Car": [
+        "car"
+    ],
+    "Tree": [
+        "tree", "forest land", "forest", "orchard", "grove"
+    ],
+    "Low Vegetation": [
+        "meadow", "clearing", "plowland", "field", "lawn", "bush", 
+        "green belt", "dune", "vegetation", "crop", "terraced field", 
+        "planting region", "gravel land", "park", "golf course", 
+        "green plant", "brushwood"
+    ],
+    "Humans": [
+        "hamlet", "living quarter"
+    ],
+    "Moving Car": [
+        "the ship", "aeroplane", "train", "boat"
+    ]
+}

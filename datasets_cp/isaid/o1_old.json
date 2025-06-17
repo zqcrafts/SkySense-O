@@ -1,0 +1,66 @@
+{
+  "except": ["way", "tree", "meadow", "clearing", "structure", "tenement", "wasteland", "lane", "concrete floor", "highroad", "plowland", "field", "water", "wind turbine", "lawn", "ridge", "fence", "riverbank", "bush", "green belt", "beach", "conduit", "ditch", "ocean", "graveyard", "rock", "sewage treatment plant", "vegetation", "shore", "dune", "mountainous region", "impoundment", "isolation strip", "misc", "sand", "plot", "playground", "building", "rest area", "workshop", "site", "planting region", "concrete road", "massif", "dam", "crop", "riffle", "seaboard", "train track", "block", "parking area", "bench", "forest land", "debris area", "terraced field", "river bed", "plastic greenhouse", "separator", "watercourse", "street lamp", "grandstand", "hamlet", "gravel land", "park", "rockily", "container", "dumping ground", "solar power plant", "stash", "gazebo", "reservoir", "equipment", "industrial park", "green plant", "rill", "pitcher", "canal", "cloud", "seaway", "railway station", "mountain road", "roof", "refinery", "forest", "road", "orchard", "solar panel", "golf course", "greenhouse", "path", "factory", "expressway", "rail", "tarmac", "unpaved road", "parking space", "brushwood", "island", "mountain range", "cistern", "unit", "substation", "courtyard", "desert", "grove", "living quarter"],
+  "others": ["way", "tree", "meadow", "clearing", "tenement", "wasteland", "lane", "concrete floor", "highroad", "plowland", "field", "water", "wind turbine", "lawn", "ridge", "fence", "riverbank", "bush", "green belt", "beach", "conduit", "aerodrome", "ditch", "ocean", "graveyard", "rock", "sewage treatment plant", "stadium", "vegetation", "shore", "dune", "mountainous region", "impoundment", "isolation strip", "misc", "sand", "plot", "playground", "building", "rest area", "workshop", "site", "planting region", "train", "concrete road", "massif", "dam", "crop", "riffle", "seaboard", "train track", "block", "bench", "forest land", "debris area", "terraced field", "river bed", "plastic greenhouse", "separator", "watercourse", "street lamp", "grandstand", "hamlet", "gravel land", "park", "rockily", "container", "airstrip", "dumping ground", "solar power plant", "stash", "gazebo", "reservoir", "equipment", "industrial park", "green plant", "rill", "pitcher", "canal", "cloud", "the helipad", "seaway", "railway station", "mountain road", "roof", "refinery", "forest", "road", "orchard", "solar panel", "golf course", "greenhouse", "path", "factory", "expressway", "rail", "tarmac", "unpaved road", "runway", "brushwood", "island", "mountain range", "cistern", "unit", "substation", "courtyard", "desert", "grove", "living quarter", "airstrip", "runway", "aerodrome"],
+  "ship": ["the ship", "boat"],
+  "storage tank": ["storage tank"],
+  "baseball diamond": ["baseball field"],
+  "tennis court": ["tennis court"],
+  "basketball court": ["basketball court"],
+  "ground track field": ["stadium"],
+  "bridge": ["bridge"],
+  "large vehicle": ["train"],
+  "small vehicle": ["car"],
+  "helicopter": ["the helipad"],
+  "swimming pool": [],
+  "roundabout": ["roundabout"],
+  "soccer ball field": ["soccer field"],
+  "plane": ["aeroplane"],
+  "harbor": ["quay", "dock", "harbor"]
+}
+
+"boat": [
+  "ship", "boat"
+],
+"storage tank": [
+  "storage tank", "water storage tank", "Oil storage tank", "industrial storage tank"
+],
+"baseball diamond": [
+  "baseball field", "baseball infield", "baseball outfield"
+],
+"tennis court": [
+  "tennis court", "perimeter of the tennis court", "outside of tennis court", "tennis court net", "tennis court infield"
+],
+"basketball court": [
+  "basketball court", "basketball rack", "basketball board", "perimeter of the basketball court"
+],
+"running track field": [
+  "stadium", "athletics track", "running track field"
+],
+"bridge": [
+  "bridge", "long bridge", "big bridge"
+],
+"truck or bus": [
+  "truck", "van", "compact car", "public bus", "bus", "coach bus", "trailer", "stadium service vehicle",  "large truck"
+],
+"car": [
+  "car", "vehicle", "small car", "service vehicle", "golf cart", "sedan"
+],
+"helicopter": [
+  "helicopter", "helicopter landing pad", "aircraft hangar"
+],
+"swimming pool": [
+  "swimming pool", "periphery of swimming pool", "swimming area"
+],
+"traffic circle": [
+  "roundabout"
+],
+"soccer field": [
+  "football field", "football goal", "soccer goal", "soccer frame", "football field"
+],
+"air plane": [
+  "airplane", "apron", "airport runway", "terminal building"
+],
+"pier": [
+  "dock", "port", "shore", "shore beach"
+]
+}
