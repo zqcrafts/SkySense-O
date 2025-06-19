@@ -7,5 +7,4 @@ from . import data
 from . import modeling
 from .skysense_o_model import SkySenseO
 from .data.dataset_mappers.skysense_o_dataset_mapper import SkySenseODatasetMapper
-from .test_time_augmentation import SemanticSegmentorWithTTA
 
