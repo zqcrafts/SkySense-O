@@ -17,7 +17,7 @@ from tabulate import tabulate
 import torchvision.transforms as transforms
 from typing import Any, Dict, List, Set
 from collections import OrderedDict, defaultdict
-from skysense_o import SkySenseODatasetMapper, SemanticSegmentorWithTTA
+from skysense_o import SkySenseODatasetMapper
 import detectron2.utils.comm as comm
 from detectron2.checkpoint import DetectionCheckpointer
 from detectron2.config import CfgNode as CN
