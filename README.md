@@ -58,8 +58,8 @@ The primary advantage of our model, <strong style="color:red">in comparison to [
 - `2025/06/17`: 🔥 We release the checkpoints of SkySense-CLIP[[ckpt]](https://huggingface.co/zqcraft/SkySense-O/tree/main) for future research.
 
 ## TODO 📝
-- [ ] Release the Sky-SA dataset. (before 6.22)
-- [ ] Release the code for data engine. (before 6.22)
+- [ ] Release the Sky-SA dataset. (before 6.24)
+- [ ] Release the code for data engine. (before 6.24)
 
 ## Try Our Demo 🕹️
 1. Install dependencies.
