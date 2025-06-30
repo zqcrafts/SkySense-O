@@ -80,6 +80,20 @@ pip install -r require.txt
 pip install accelerate -U
 ```
 
+## Dataset Preparation
+
+- Sky-SA dataset 🤗 [download](https://huggingface.co/zqcraft/SkySense-O/tree/main)
+
+After downloading Sky-SA dataset, organize the data as follows in `./data`,
+```
+├── Sky-SA
+│   ├── img_dir
+│   ├── ann_dir
+│   ├── skysa_dataset.jsonl
+│   ├── skysa_graph.jsonl
+```
+
+
 ## Model Training and Evaluation
 ```
 sh run_train.sh 
