@@ -40,8 +40,8 @@ if hyper_use == True:
 else:
     sampling_hyper = [1,3,9,10]
 
-graph_path = '/gruntdata/rs_nas/workspace/xingsu.zq/SkySA_DataEngine/graph_maker/skysa_graph.json'
-dataset_ann_json = '/gruntdata/rs_nas/workspace/xingsu.zq/SkySA_DataEngine/dataset/fused_dataset/decode_ann_itag_eng.json'
+graph_path = 'dataset/skysa/skysa_graph.jsonl'
+dataset_ann_json = 'dataset/skysa/skysa_dataset.jsonl'
 
 # For testing
 def _get_skysa_graph_meta():
