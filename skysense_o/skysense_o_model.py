@@ -169,22 +169,6 @@ class SkySenseO(nn.Module):
         return self.clip_pixel_mean.device
 
     def forward(self, batched_inputs):
-        """
-        sh run_train.sh -a -n base_hyper_5_8_9_10_a -h "[5,8,9,10]"
-        text_batch = 100
-        ------------------------------------------------------------------
-        Baseline:
-        100 (Default) |  11.8  |  48.1  |  2.4  |  10.7  |  9.0  | 
-        ------------------------------------------------------------------
-            Hypara ablation   |  isaid | potsdam | fast |  sior  |  sota       
-        ------------------------------------------------------------------
-        50            |   9.7 ｜ 
-        80            |  11.9
-        100 (Default) |  11.0
-        120           |  10.7
-        200           |  11.8
-        ------------------------------------------------------------------
-        """
         assert len(batched_inputs) == 1            
         # Sliding-Window Inference
         if not self.training and self.sliding_window:
