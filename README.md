@@ -4,25 +4,15 @@
   <img src="docs/icon.png" width="600" alt="image">
 </div>
 
+<div align=center>
 
-<div style="position: relative; text-align: center;">
-  <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 100%; height: 0; border-top: 4px dashed gray; z-index: 10;"></div>
-</div>
-
-<!-- <div style="position: relative; text-align: center;"> <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 100%; height: 4px; background-color: gray; z-index: 10;"></div> </div>  -->
-
-<!-- <h3>✨ In CVPR 2025 <a href="https://arxiv.org/abs/2410.01768" target='_blank'>[arXiv]</a>  ✨</h3> -->
-
-#### <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf" target='_blank'>SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling (CVPR 2025)</a> 
-
+[![paper](https://img.shields.io/badge/Paper-CVPR_2025-ECA8A7?logo=readthedocs&logoColor=white)](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf) 
+[![Dataset](https://img.shields.io/badge/Dataset-Hugging_Face-CFAFD4?logo=alfred&logoColor=white)](https://huggingface.co/zqcraft/SkySense-O/tree/main) 
+[![Weight](https://img.shields.io/badge/Weight-Hugging_Face-C1E1C1?logo=pkgsrc&logoColor=white)](https://huggingface.co/zqcraft/SkySense-O/tree/main) 
+[![DemoDemo](https://img.shields.io/badge/Try_Demo-Docs-6B88E3?logo=applearcade&logoColor=white)](demo/readme.md)
 
 </div>
 
-
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-2312.14033-b31b1b.svg)](https://arxiv.org/abs/2312.14033)  [![license](https://img.shields.io/github/license/InternLM/opencompass.svg)](./LICENSE) -->
-
-
-<div align="left">
 
 ## Introduction✨
 
