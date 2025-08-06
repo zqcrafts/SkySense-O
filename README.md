@@ -29,7 +29,7 @@
 
 ### 1. SkySense Family
 
-Welcome to SkySense-O — part of the SkySense series, a family of remote sensing foundation models dedicated to advancing earth observation. We'd be delighted to have your attention and earn a star!
+Welcome to SkySense-O — part of the SkySense family, a series of remote sensing foundation models for earth observation as following. We'd be delighted to have your attention and earn a star!
 
 <div align="center">
     <img src="docs/project.png" width="82%" />
