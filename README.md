@@ -57,7 +57,7 @@ The primary advantage of our model, <strong style="color:red">in comparison to [
 - `2025/06/11`: 🔥 We release the checkpoints and demo. Welcome to try!
 - `2025/06/17`: 🔥 We release the checkpoints of SkySense-CLIP[[ckpt]](https://huggingface.co/zqcraft/SkySense-O/tree/main) for future research.
 - `2025/06/29`: 🔥 We release the Sky-SA dataset[[dataset]](https://huggingface.co/zqcraft/SkySense-O/tree/main) .
-- `2025/08/06`: 🔥 Our new work, SkySense++, has been accept to Nature Machine Intelligence! Different from text prompt of Skysense-O,  SkySense++ focuses on visual prompt.
+- `2025/08/06`: 🔥 Our new work, <strong>SkySense++</strong>[[paper]](https://www.nature.com/articles/s42256-025-01078-8)[[code]](https://github.com/kang-wu/SkySensePlusPlus), has been accepted to Nature Machine Intelligence! Different from text prompt of Skysense-O,  SkySense++ focuses on visual prompt.
   
 ## TODO 📝
 - [ ] Release the code for data engine.
