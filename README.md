@@ -21,7 +21,7 @@
 
 Welcome to SkySense-O — part of the SkySense family, a series of remote sensing foundation models for earth observation as following. We'd be delighted to have your attention and earn a star!  
 <sub>[(1) SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery](https://arxiv.org/pdf/2312.10115)</sub>  
-<sub>[(2) SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf)</sub>  
+<sub>[(2) SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling](https://github.com/zqcrafts/SkySense-O)</sub>  
 <sub>[(3) SkySense-V2: A Unified Foundation Model for Multi-modal Remote Sensing](https://arxiv.org/pdf/2507.13812)</sub>  
 <sub>[(4) SkySense++: A Semantic-Enhanced Multi-Modal Remote Sensing Foundation Model for Earth Observation](https://www.nature.com/articles/s42256-025-01078-8)</sub>  
 <sub>[(5) SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding](https://arxiv.org/pdf/2406.10100)</sub>  
