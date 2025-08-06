@@ -31,6 +31,12 @@
 
 Welcome to SkySense-O — part of the SkySense family, a series of remote sensing foundation models for earth observation as following. We'd be delighted to have your attention and earn a star!
 
+[SkySense](https://arxiv.org/pdf/2312.10115)
+[SkySense-O](https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf)
+[SkySense-v2](https://arxiv.org/pdf/2507.13812)
+[SkySense++](https://www.nature.com/articles/s42256-025-01078-8)
+[SkySenseGPT](https://arxiv.org/pdf/2406.10100)
+
 <div align="center">
     <img src="docs/project.png" width="82%" />
 </div>
