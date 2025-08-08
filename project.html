@@ -97,13 +97,11 @@
       <p class="text-gray-600 mb-4 text-sm">
       Welcome to SkySense family project, a series of remote sensing (RS) foundation models for earth observation. We start exploring RS foundation models from Prompt Encoder (SkySense++ and SkySense-O), RS Encoder (SkySense and SkySense-V2), and RS Decoder (SkySenseGPT), turning satellite data into actionable insights for disaster management, environmental monitoring, and more.
       </p>
-<!--       <div class="md:w-3/4 overflow-hidden rounded-lg shadow-sm">
-        <img src="docs/overview.png" alt="SkySense Overview Visualization" class="w-full h-auto rounded-lg  mx-auto"> <!-- 添加max-w-md限制最大宽度，mx-auto居中 -->
-      </div> -->
-      <div class="mx-auto max-w-3xl">
-      <img src="docs/overview.png" 
-           alt="SkySense 架构图" 
-           class="w-full h-auto">
+      <!-- 修改后的图片容器及图片代码 -->
+      <div class="flex justify-center mb-4"> <!-- 新增 flex justify-center 让图片水平居中 -->
+        <div class="w-full max-w-3xl"> <!-- 限制容器最大宽度，可按需调整，比如 max-w-2xl 等 -->
+          <img src="docs/overview.png" alt="SkySense Overview Visualization" class="w-full h-auto rounded-lg"> <!-- 保持图片自适应容器宽度和圆角等样式 -->
+        </div>
       </div>
       <div class="flex flex-col md:flex-row gap-8 items-center">
         <div class="md:w-1/1 overflow-hidden rounded-lg shadow-sm">
