@@ -19,7 +19,7 @@
 
 ### 1. SkySense Family
 
-Welcome to SkySense-O — part of the SkySense family, a series of remote sensing foundation models for earth observation as following. We'd be delighted to have your attention and earn a star!  
+Welcome to SkySense-O — part of the SkySense family [[homepage]](https://zqcrafts.github.io/SkySense-O/project.html), a series of remote sensing foundation models for earth observation as following. We'd be delighted to have your attention and earn a star!  
 <sub>[(1) SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery](https://arxiv.org/pdf/2312.10115)</sub>  
 <sub>[(2) SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling](https://github.com/zqcrafts/SkySense-O)</sub>  
 <sub>[(3) SkySense-V2: A Unified Foundation Model for Multi-modal Remote Sensing](https://arxiv.org/pdf/2507.13812)</sub>  
@@ -60,7 +60,7 @@ The primary advantage of our model, <strong style="color:red">in comparison to [
 - `2025/06/17`: 🔥 We release the checkpoints of SkySense-CLIP[[ckpt]](https://huggingface.co/zqcraft/SkySense-O/tree/main) for future research.
 - `2025/06/29`: 🔥 We release the Sky-SA dataset[[dataset]](https://huggingface.co/zqcraft/SkySense-O/tree/main) .
 - `2025/08/06`: 🔥 Our new work, <strong>SkySense++</strong>[[paper]](https://www.nature.com/articles/s42256-025-01078-8)[[code]](https://github.com/kang-wu/SkySensePlusPlus), has been accepted to Nature Machine Intelligence! Different from text prompt of Skysense-O,  SkySense++ focuses on visual prompt.
-
+- `2025/08/08`: 🔥 The SkySense Family project homepage[[url]](https://zqcrafts.github.io/SkySense-O/project.html) is now live. Welcome to follow us!
 
 
 ## Try Our Demo 🕹️
