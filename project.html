@@ -37,8 +37,9 @@
       .conference-logo {
         @apply h-6 w-auto opacity-80 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300 ml-4;
       }
+      /* 增大图片高度从h-40到h-56 */
       .card-image {
-        @apply w-full h-40 object-cover rounded-lg mb-4 transition-transform duration-700 hover:scale-110;
+        @apply w-full h-56 object-cover rounded-lg mb-6 transition-transform duration-700 hover:scale-110;
       }
       .title-line {
         display: block;
@@ -100,12 +101,12 @@
       <!-- 修改后的图片容器及图片代码 -->
       <div class="flex justify-center mb-4"> <!-- 新增 flex justify-center 让图片水平居中 -->
         <div class="w-full max-w-3xl"> <!-- 限制容器最大宽度，可按需调整，比如 max-w-2xl 等 -->
-          <img src="docs/overview.png" alt="SkySense Overview Visualization" class="w-full h-auto rounded-lg"> <!-- 保持图片自适应容器宽度和圆角等样式 -->
+          <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/overview.png" alt="SkySense Overview Visualization" class="w-full h-auto rounded-lg"> <!-- 保持图片自适应容器宽度和圆角等样式 -->
         </div>
       </div>
       <div class="flex flex-col md:flex-row gap-8 items-center">
         <div class="md:w-1/1 overflow-hidden rounded-lg shadow-sm">
-          <img src="docs/application.png" alt="SkySense Overview Visualization" class="w-full h-auto rounded-lg transition-transform duration-700 hover:scale-105">
+          <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/application.png" alt="SkySense Overview Visualization" class="w-full h-auto rounded-lg transition-transform duration-700 hover:scale-105">
         </div>
       </div>
     </section>
@@ -122,151 +123,146 @@
       <!-- 项目卡片容器 -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- 项目 1 -->
-        <div class="bg-white rounded-xl shadow-md p-6 card-hover border border-gray-100 overflow-hidden card-glow">
-          <div class="flex items-center mb-3">
-            <span class="bg-primary/10 text-primary font-bold w-8 h-8 rounded-full flex items-center justify-center mr-3">1</span>
-            <h3 class="font-semibold text-lg flex items-center">
+        <div class="bg-white rounded-xl shadow-md p-8 card-hover border border-gray-100 overflow-hidden card-glow"> <!-- 增加内边距到p-8 -->
+          <div class="flex items-center mb-5"> <!-- 增加标题区域底部间距 -->
+            <span class="bg-primary/10 text-primary font-bold w-10 h-10 rounded-full flex items-center justify-center mr-3 text-lg">1</span> <!-- 增大序号圆圈 -->
+            <h3 class="font-semibold text-xl flex items-center"> <!-- 增大标题字体 -->
               SkySense (CVPR 2024)
-<!--               <img src="https://picsum.photos/id/11/60/30" alt="Conference Logo" class="conference-logo"> -->
             </h3>
           </div>
           
           <!-- 详情图片 -->
-          <div class="overflow-hidden rounded-lg mb-4">
-            <img src="docs/skysense.png" alt="SkySense Model Visualization" class="card-image">
+          <div class="overflow-hidden rounded-lg mb-6"> <!-- 增加图片底部间距 -->
+            <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/skysense.png" alt="SkySense Model Visualization" class="card-image">
           </div>
           
-          <p class="text-gray-600 mb-4 text-sm">
+          <p class="text-gray-600 mb-6 text-base"> <!-- 增大描述文字大小和底部间距 -->
             A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery
           </p>
           
           <!-- 查看选项 -->
-          <div class="flex gap-3">
-            <a href="https://arxiv.org/pdf/2312.10115" class="inline-flex items-center text-primary hover:text-dark/80 text-sm font-medium transition-colors duration-300">
-              <i class="fa fa-file-pdf-o mr-1"></i> View Paper
+          <div class="flex gap-4"> <!-- 增加按钮间距 -->
+            <a href="https://arxiv.org/pdf/2312.10115" class="inline-flex items-center text-primary hover:text-dark/80 text-base font-medium transition-colors duration-300"> <!-- 增大按钮文字 -->
+              <i class="fa fa-file-pdf-o mr-2"></i> View Paper
             </a>
-            <a href="https://github.com/Jack-bo1220/SkySense" class="inline-flex items-center text-gray-700 hover:text-dark text-sm font-medium transition-colors duration-300">
-              <i class="fa fa-github mr-1"></i> View Project
+            <a href="https://github.com/Jack-bo1220/SkySense" class="inline-flex items-center text-gray-700 hover:text-dark text-base font-medium transition-colors duration-300"> <!-- 增大按钮文字 -->
+              <i class="fa fa-github mr-2"></i> View Project
             </a>
           </div>
         </div>
         
         <!-- 项目 2 -->
-        <div class="bg-white rounded-xl shadow-md p-6 card-hover border border-gray-100 overflow-hidden card-glow">
-          <div class="flex items-center mb-3">
-            <span class="bg-primary/10 text-primary font-bold w-8 h-8 rounded-full flex items-center justify-center mr-3">2</span>
-            <h3 class="font-semibold text-lg flex items-center">
+        <div class="bg-white rounded-xl shadow-md p-8 card-hover border border-gray-100 overflow-hidden card-glow">
+          <div class="flex items-center mb-5">
+            <span class="bg-primary/10 text-primary font-bold w-10 h-10 rounded-full flex items-center justify-center mr-3 text-lg">2</span>
+            <h3 class="font-semibold text-xl flex items-center">
               SkySense-O (CVPR 2025)
-<!--               <img src="https://picsum.photos/id/12/60/30" alt="Conference Logo" class="conference-logo"> -->
             </h3>
           </div>
           
           <!-- 详情图片 -->
-          <div class="overflow-hidden rounded-lg mb-4">
-            <img src="docs/skysenseo.png" alt="SkySense-O Model Visualization" class="card-image">
+          <div class="overflow-hidden rounded-lg mb-6">
+            <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/skysenseo.png" alt="SkySense-O Model Visualization" class="card-image">
           </div>
           
-          <p class="text-gray-600 mb-4 text-sm">
+          <p class="text-gray-600 mb-6 text-base">
             Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling
           </p>
           
           <!-- 查看选项 -->
-          <div class="flex gap-3">
-            <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf" class="inline-flex items-center text-primary hover:text-primary/80 text-sm font-medium transition-colors duration-300">
-              <i class="fa fa-file-pdf-o mr-1"></i> View Paper
+          <div class="flex gap-4">
+            <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_SkySense-O_Towards_Open-World_Remote_Sensing_Interpretation_with_Vision-Centric_Visual-Language_Modeling_CVPR_2025_paper.pdf" class="inline-flex items-center text-primary hover:text-primary/80 text-base font-medium transition-colors duration-300">
+              <i class="fa fa-file-pdf-o mr-2"></i> View Paper
             </a>
-            <a href="https://github.com/zqcrafts/SkySense-O" class="inline-flex items-center text-gray-700 hover:text-dark text-sm font-medium transition-colors duration-300">
-              <i class="fa fa-github mr-1"></i> View Project
+            <a href="https://github.com/zqcrafts/SkySense-O" class="inline-flex items-center text-gray-700 hover:text-dark text-base font-medium transition-colors duration-300">
+              <i class="fa fa-github mr-2"></i> View Project
             </a>
           </div>
         </div>
         
         <!-- 项目 3 -->
-        <div class="bg-white rounded-xl shadow-md p-6 card-hover border border-gray-100 overflow-hidden card-glow">
-          <div class="flex items-center mb-3">
-            <span class="bg-primary/10 text-primary font-bold w-8 h-8 rounded-full flex items-center justify-center mr-3">3</span>
-            <h3 class="font-semibold text-lg flex items-center">
+        <div class="bg-white rounded-xl shadow-md p-8 card-hover border border-gray-100 overflow-hidden card-glow">
+          <div class="flex items-center mb-5">
+            <span class="bg-primary/10 text-primary font-bold w-10 h-10 rounded-full flex items-center justify-center mr-3 text-lg">3</span>
+            <h3 class="font-semibold text-xl flex items-center">
               SkySense-V2 (ICCV 2025)
-<!--               <img src="https://picsum.photos/id/13/60/30" alt="Conference Logo" class="conference-logo"> -->
             </h3>
           </div>
           
           <!-- 详情图片 -->
-          <div class="overflow-hidden rounded-lg mb-4">
-            <img src="docs/skysensev2.png" alt="SkySense-V2 Model Visualization" class="card-image">
+          <div class="overflow-hidden rounded-lg mb-6">
+            <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/skysensev2.png" alt="SkySense-V2 Model Visualization" class="card-image">
           </div>
           
-          <p class="text-gray-600 mb-4 text-sm">
+          <p class="text-gray-600 mb-6 text-base">
             A Unified Foundation Model for Multi-modal Remote Sensing
           </p>
           
           <!-- 查看选项 -->
-          <div class="flex gap-3">
-            <a href="https://arxiv.org/pdf/2507.13812" class="inline-flex items-center text-primary hover:text-primary/80 text-sm font-medium transition-colors duration-300">
-              <i class="https://arxiv.org/abs/2507.13812"></i> View Paper
+          <div class="flex gap-4">
+            <a href="https://arxiv.org/pdf/2507.13812" class="inline-flex items-center text-primary hover:text-primary/80 text-base font-medium transition-colors duration-300">
+              <i class="fa fa-file-pdf-o mr-2"></i> View Paper
             </a>
-            <a href="https://arxiv.org/abs/2507.13812" class="inline-flex items-center text-gray-700 hover:text-dark text-sm font-medium transition-colors duration-300">
-              <i class="fa fa-github mr-1"></i> View Project
+            <a href="https://arxiv.org/abs/2507.13812" class="inline-flex items-center text-gray-700 hover:text-dark text-base font-medium transition-colors duration-300">
+              <i class="fa fa-github mr-2"></i> View Project
             </a>
           </div>
         </div>
         
         <!-- 项目 4 -->
-        <div class="bg-white rounded-xl shadow-md p-6 card-hover border border-gray-100 overflow-hidden card-glow">
-          <div class="flex items-center mb-3">
-            <span class="bg-primary/10 text-primary font-bold w-8 h-8 rounded-full flex items-center justify-center mr-3">4</span>
-            <h3 class="font-semibold text-lg flex items-center">
+        <div class="bg-white rounded-xl shadow-md p-8 card-hover border border-gray-100 overflow-hidden card-glow">
+          <div class="flex items-center mb-5">
+            <span class="bg-primary/10 text-primary font-bold w-10 h-10 rounded-full flex items-center justify-center mr-3 text-lg">4</span>
+            <h3 class="font-semibold text-xl flex items-center">
               SkySense++ (NMI 2025)
-<!--               <img src="https://picsum.photos/id/14/60/30" alt="Nature Logo" class="conference-logo"> -->
             </h3>
           </div>
           
           <!-- 详情图片 -->
-          <div class="overflow-hidden rounded-lg mb-4">
-            <img src="docs/skysense++.png" alt="SkySense++ Model Visualization" class="card-image">
+          <div class="overflow-hidden rounded-lg mb-6">
+            <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/skysense++.png" alt="SkySense++ Model Visualization" class="card-image">
           </div>
           
-          <p class="text-gray-600 mb-4 text-sm">
+          <p class="text-gray-600 mb-6 text-base">
             A Semantic-Enhanced Multi-Modal Remote Sensing Foundation Model for Earth Observation
           </p>
           
           <!-- 查看选项 -->
-          <div class="flex gap-3">
-            <a href="https://www.nature.com/articles/s42256-025-01078-8" class="inline-flex items-center text-primary hover:text-primary/80 text-sm font-medium transition-colors duration-300">
-              <i class="fa fa-file-pdf-o mr-1"></i> View Paper
+          <div class="flex gap-4">
+            <a href="https://www.nature.com/articles/s42256-025-01078-8" class="inline-flex items-center text-primary hover:text-primary/80 text-base font-medium transition-colors duration-300">
+              <i class="fa fa-file-pdf-o mr-2"></i> View Paper
             </a>
-            <a href="https://github.com/kang-wu/SkySensePlusPlus" class="inline-flex items-center text-gray-700 hover:text-dark text-sm font-medium transition-colors duration-300">
-              <i class="fa fa-github mr-1"></i> View Project
+            <a href="https://github.com/kang-wu/SkySensePlusPlus" class="inline-flex items-center text-gray-700 hover:text-dark text-base font-medium transition-colors duration-300">
+              <i class="fa fa-github mr-2"></i> View Project
             </a>
           </div>
         </div>
         
         <!-- 项目 5 -->
-        <div class="bg-white rounded-xl shadow-md p-6 card-hover border border-gray-100 overflow-hidden md:col-span-2 card-glow">
-          <div class="flex items-center mb-3">
-            <span class="bg-primary/10 text-primary font-bold w-8 h-8 rounded-full flex items-center justify-center mr-3">5</span>
-            <h3 class="font-semibold text-lg flex items-center">
+        <div class="bg-white rounded-xl shadow-md p-8 card-hover border border-gray-100 overflow-hidden md:col-span-2 card-glow">
+          <div class="flex items-center mb-5">
+            <span class="bg-primary/10 text-primary font-bold w-10 h-10 rounded-full flex items-center justify-center mr-3 text-lg">5</span>
+            <h3 class="font-semibold text-xl flex items-center">
               SkySenseGPT (ArXiv 2024)
-<!--               <img src="https://picsum.photos/id/15/60/30" alt="Conference Logo" class="conference-logo"> -->
             </h3>
           </div>
           
           <!-- 详情图片 -->
-          <div class="overflow-hidden rounded-lg mb-4">
-            <img src="docs/skysenseGPT.png" alt="SkySenseGPT Model Visualization" class="card-image">
+          <div class="overflow-hidden rounded-lg mb-6">
+            <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/skysenseGPT.png" alt="SkySenseGPT Model Visualization" class="card-image">
           </div>
           
-          <p class="text-gray-600 mb-4 text-sm">
+          <p class="text-gray-600 mb-6 text-base">
             A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
           </p>
           
           <!-- 查看选项 -->
-          <div class="flex gap-3">
-            <a href="https://arxiv.org/pdf/2406.10100" class="inline-flex items-center text-primary hover:text-primary/80 text-sm font-medium transition-colors duration-300">
-              <i class="fa fa-file-pdf-o mr-1"></i> View Paper
+          <div class="flex gap-4">
+            <a href="https://arxiv.org/pdf/2406.10100" class="inline-flex items-center text-primary hover:text-primary/80 text-base font-medium transition-colors duration-300">
+              <i class="fa fa-file-pdf-o mr-2"></i> View Paper
             </a>
-            <a href="https://github.com/Luo-Z13/SkySenseGPT" class="inline-flex items-center text-gray-700 hover:text-dark text-sm font-medium transition-colors duration-300">
-              <i class="fa fa-github mr-1"></i> View Project
+            <a href="https://github.com/Luo-Z13/SkySenseGPT" class="inline-flex items-center text-gray-700 hover:text-dark text-base font-medium transition-colors duration-300">
+              <i class="fa fa-github mr-2"></i> View Project
             </a>
           </div>
         </div>
@@ -347,4 +343,3 @@
 </body>
 
 </html>
-    
