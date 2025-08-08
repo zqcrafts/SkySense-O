@@ -113,14 +113,22 @@
       Welcome to SkySense family project, a series of remote sensing (RS) foundation models for earth observation. We start exploring RS foundation models from Prompt Encoder (SkySense++ and SkySense-O), RS Encoder (SkySense and SkySense-V2), and RS Decoder (SkySenseGPT), turning satellite data into actionable insights for disaster management, environmental monitoring, and more.
       </p>
       <!-- 修改后的图片容器及图片代码 -->
-      <div class="flex justify-center mb-4"> <!-- 新增 flex justify-center 让图片水平居中 -->
-        <div class="w-full max-w-3xl"> <!-- 限制容器最大宽度，可按需调整，比如 max-w-2xl 等 -->
-          <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/overview.png" alt="SkySense Overview Visualization" class="w-full h-auto rounded-lg"> <!-- 保持图片自适应容器宽度和圆角等样式 -->
+      <div class="flex justify-center mb-4">
+        <div class="w-full max-w-3xl">
+          <!-- 第一张图添加特效 -->
+          <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/overview.png" 
+               alt="SkySense Overview Visualization" 
+               class="w-full h-auto rounded-lg opacity-0 transform translate-y-4 transition-all duration-1000 ease-out hover:scale-105"
+               onload="this.classList.remove('opacity-0', 'translate-y-4')">
         </div>
       </div>
+      
       <div class="flex flex-col md:flex-row gap-8 items-center">
         <div class="md:w-1/1 overflow-hidden rounded-lg shadow-sm">
-          <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/application.png" alt="SkySense Overview Visualization" class="w-full h-auto rounded-lg transition-transform duration-700 hover:scale-105">
+          <!-- 第二张图保持原有样式 -->
+          <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/application.png" 
+               alt="SkySense Application Scenarios" 
+               class="w-full h-auto rounded-lg">
         </div>
       </div>
     </section>
@@ -263,7 +271,7 @@
           
           <!-- 详情图片 -->
           <div class="overflow-hidden rounded-lg mb-8">
-            <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/skysenseGPT.png" alt="SkySenseGPT Model Visualization" class="w-full h-64 object-cover rounded-lg transition-transform duration-700 hover:scale-110">
+            <img src="https://github.com/zqcrafts/SkySense-O/raw/main/docs/skysenseGPT.png" alt="SkySenseGPT Model Visualization" class="w-full h-70 object-cover rounded-lg transition-transform duration-700 hover:scale-110">
           </div>
                   
           <p class="text-gray-600 mb-6 text-base">
