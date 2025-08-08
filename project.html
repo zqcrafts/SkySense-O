@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkySense Family Introduction</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#165DFF',
+            secondary: '#36CFC9',
+            neutral: '#F5F7FA',
+            dark: '#1D2129',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      }
+    }
+  </script>
+  
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .text-shadow {
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      }
+      .card-hover {
+        @apply transition-all duration-500 hover:shadow-2xl hover:-translate-y-3;
+      }
+      .conference-logo {
+        @apply h-6 w-auto opacity-80 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300 ml-4;
+      }
+      .card-image {
+        @apply w-full h-40 object-cover rounded-lg mb-4 transition-transform duration-700 hover:scale-110;
+      }
+      .title-line {
+        display: block;
+      }
+      .section-divider {
+        @apply h-1 w-20 bg-primary/30 my-8 mx-auto rounded-full relative overflow-hidden;
+      }
+      .section-divider::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(22, 93, 255, 0.5), transparent);
+        animation: shimmer 2s infinite;
+      }
+      .card-glow {
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+      }
+      @keyframes shimmer {
+        to {
+          left: 100%;
+        }
+      }
+    }
+  </style>
+</head>
+
+<body class="text-dark min-h-screen">
+  <!-- 背景图片 - 透明度调浅 -->
+  <div class="fixed inset-0 z-0">
+    <img src="https://picsum.photos/id/1015/1920/1080" alt="Earth from space" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-dark/15"></div> <!-- 从30%调整为15%透明度 -->
+  </div>
+  
+  <div class="container mx-auto px-4 py-8 md:py-16 max-w-6xl relative z-10">
+    <!-- 标题部分 -->
+    <header class="mb-10 md:mb-20 text-center">
+      <!-- 缩小地球图标：将容器从p-4改为p-2，图标从text-3xl改为text-2xl -->
+      <div class="inline-block mb-6 p-2 bg-white rounded-full shadow-lg transform transition-transform duration-500 hover:scale-110">
+        <i class="fa fa-globe text-primary text-2xl"></i>
+      </div>
+      <h1 class="text-[clamp(1.75rem,5vw,2.75rem)] font-bold text-white leading-tight tracking-tight text-shadow">
+        <span class="title-line">SkySense Family: A Series Works of</span>
+        <span class="title-line text-white">Remote Sensing Foundation Model for Earth Observation</span>
+      </h1>
+    </header>
+
+    <!-- Overview部分 - 纯白卡片 -->
+    <section class="mb-16 bg-white rounded-xl shadow-md p-6 md:p-8 border border-gray-100 mx-auto max-w-5xl transform transition-all duration-500 hover:shadow-xl card-glow">
+      <h2 class="text-[clamp(1.5rem,3vw,2rem)] font-semibold mb-6 text-primary text-center relative inline-block mx-auto">
+        Overview
+        <span class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-1/2 h-1 bg-primary/30 rounded-full"></span>
+      </h2>
+      
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+        <div class="md:w-1/2 overflow-hidden rounded-lg shadow-sm">
+          <img src="https://picsum.photos/id/30/600/400" alt="SkySense Overview Visualization" class="w-full h-auto rounded-lg transition-transform duration-700 hover:scale-105">
+        </div>
+        <div class="md:w-1/2">
+          <p class="text-gray-700 leading-relaxed mb-4 text-base md:text-lg">
+            The SkySense family represents a comprehensive suite of remote sensing foundation models designed to address various challenges in earth observation. These models leverage advanced multi-modal learning techniques to interpret complex geospatial data with unprecedented accuracy.
+          </p>
+          <p class="text-gray-700 leading-relaxed text-base md:text-lg">
+            From universal interpretation to open-world understanding, and from multi-modal integration to fine-grained instruction tuning, the SkySense series continues to push the boundaries of what's possible in remote sensing AI research and applications.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- 项目介绍部分 - 纯白卡片 -->
+    <section class="mb-12 mx-auto max-w-5xl">      
+      <!-- 标题 "Our Works" -->
+      <h2 class="text-[clamp(1.5rem,3vw,2rem)] font-semibold mb-8 text-white text-center text-shadow">
+        Our Works
+      </h2>
+      
+      <!-- 项目卡片容器 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- 项目 1 -->
+        <div class="bg-white rounded-xl shadow-md p-6 card-hover border border-gray-100 overflow-hidden card-glow">
+          <div class="flex items-center mb-3">
+            <span class="bg-primary/10 text-primary font-bold w-8 h-8 rounded-full flex items-center justify-center mr-3">1</span>
+            <h3 class="font-semibold text-lg flex items-center">
+              SkySense
+              <img src="https://picsum.photos/id/11/60/30" alt="Conference Logo" class="conference-logo">
+            </h3>
+          </div>
+          
+          <!-- 详情图片 -->
+          <div class="overflow-hidden rounded-lg mb-4">
+            <img src="https://picsum.photos/id/21/400/200" alt="SkySense Model Visualization" class="card-image">
+          </div>
+          
+          <p class="text-gray-600 mb-4 text-sm">
+            A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery
+          </p>
+          
+          <!-- 查看选项 -->
+          <div class="flex gap-3">
+            <a href="https://arxiv.org/pdf/2312.10115" class="inline-flex items-center text-primary hover:text-primary/80 text-sm font-medium transition-colors duration-300">
+              <i class="fa fa-file-pdf-o mr-1"></i> View Paper
+            </a>
+            <a href="#" class="inline-flex items-center text-gray-700 hover:text-dark text-sm font-medium transition-colors duration-300">
+              <i class="fa fa-github mr-1"></i> View Project
+            </a>
+          </div>
+        </div>
+        
+        <!-- 项目 2 -->
+        <div class="bg-white rounded-xl shadow-md p-6 card-hover border border-gray-100 overflow-hidden card-glow">
+          <div class="flex items-center mb-3">
+            <span class="bg-primary/10 text-primary font-bold w-8 h-8 rounded-full flex items-center justify-center mr-3">2</span>
+            <h3 class="font-semibold text-lg flex items-center">
+              SkySense-O
+              <img src="https://picsum.photos/id/12/60/30" alt="Conference Logo" class="conference-logo">
+            </h3>
+          </div>
+          
+          <!-- 详情图片 -->
+          <div class="overflow-hidden rounded-lg mb-4">
+            <img src="https://picsum.photos/id/22/400/200" alt="SkySense-O Model Visualization" class="card-image">
+          </div>
+          
+          <p class="text-gray-600 mb-4 text-sm">
+            Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling
+          </p>
+          
+          <!-- 查看选项 -->
+          <div class="flex gap-3">
+            <a href="#" class="inline-flex items-center text-primary hover:text-primary/80 text-sm font-medium transition-colors duration-300">
+              <i class="fa fa-file-pdf-o mr-1"></i> View Paper
+            </a>
+            <a href="https://github.com/zqcrafts/SkySense-O" class="inline-flex items-center text-gray-700 hover:text-dark text-sm font-medium transition-colors duration-300">
+              <i class="fa fa-github mr-1"></i> View Project
+            </a>
+          </div>
+        </div>
+        
+        <!-- 项目 3 -->
+        <div class="bg-white rounded-xl shadow-md p-6 card-hover border border-gray-100 overflow-hidden card-glow">
+          <div class="flex items-center mb-3">
+            <span class="bg-primary/10 text-primary font-bold w-8 h-8 rounded-full flex items-center justify-center mr-3">3</span>
+            <h3 class="font-semibold text-lg flex items-center">
+              SkySense-V2
+              <img src="https://picsum.photos/id/13/60/30" alt="Conference Logo" class="conference-logo">
+            </h3>
+          </div>
+          
+          <!-- 详情图片 -->
+          <div class="overflow-hidden rounded-lg mb-4">
+            <img src="https://picsum.photos/id/23/400/200" alt="SkySense-V2 Model Visualization" class="card-image">
+          </div>
+          
+          <p class="text-gray-600 mb-4 text-sm">
+            A Unified Foundation Model for Multi-modal Remote Sensing
+          </p>
+          
+          <!-- 查看选项 -->
+          <div class="flex gap-3">
+            <a href="https://arxiv.org/pdf/2507.13812" class="inline-flex items-center text-primary hover:text-primary/80 text-sm font-medium transition-colors duration-300">
+              <i class="fa fa-file-pdf-o mr-1"></i> View Paper
+            </a>
+            <a href="#" class="inline-flex items-center text-gray-700 hover:text-dark text-sm font-medium transition-colors duration-300">
+              <i class="fa fa-github mr-1"></i> View Project
+            </a>
+          </div>
+        </div>
+        
+        <!-- 项目 4 -->
+        <div class="bg-white rounded-xl shadow-md p-6 card-hover border border-gray-100 overflow-hidden card-glow">
+          <div class="flex items-center mb-3">
+            <span class="bg-primary/10 text-primary font-bold w-8 h-8 rounded-full flex items-center justify-center mr-3">4</span>
+            <h3 class="font-semibold text-lg flex items-center">
+              SkySense++
+              <img src="https://picsum.photos/id/14/60/30" alt="Nature Logo" class="conference-logo">
+            </h3>
+          </div>
+          
+          <!-- 详情图片 -->
+          <div class="overflow-hidden rounded-lg mb-4">
+            <img src="https://picsum.photos/id/24/400/200" alt="SkySense++ Model Visualization" class="card-image">
+          </div>
+          
+          <p class="text-gray-600 mb-4 text-sm">
+            A Semantic-Enhanced Multi-Modal Remote Sensing Foundation Model for Earth Observation
+          </p>
+          
+          <!-- 查看选项 -->
+          <div class="flex gap-3">
+            <a href="https://www.nature.com/articles/s42256-025-01078-8" class="inline-flex items-center text-primary hover:text-primary/80 text-sm font-medium transition-colors duration-300">
+              <i class="fa fa-file-pdf-o mr-1"></i> View Paper
+            </a>
+            <a href="#" class="inline-flex items-center text-gray-700 hover:text-dark text-sm font-medium transition-colors duration-300">
+              <i class="fa fa-github mr-1"></i> View Project
+            </a>
+          </div>
+        </div>
+        
+        <!-- 项目 5 -->
+        <div class="bg-white rounded-xl shadow-md p-6 card-hover border border-gray-100 overflow-hidden md:col-span-2 card-glow">
+          <div class="flex items-center mb-3">
+            <span class="bg-primary/10 text-primary font-bold w-8 h-8 rounded-full flex items-center justify-center mr-3">5</span>
+            <h3 class="font-semibold text-lg flex items-center">
+              SkySenseGPT
+              <img src="https://picsum.photos/id/15/60/30" alt="Conference Logo" class="conference-logo">
+            </h3>
+          </div>
+          
+          <!-- 详情图片 -->
+          <div class="overflow-hidden rounded-lg mb-4">
+            <img src="https://picsum.photos/id/25/800/200" alt="SkySenseGPT Model Visualization" class="card-image">
+          </div>
+          
+          <p class="text-gray-600 mb-4 text-sm">
+            A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
+          </p>
+          
+          <!-- 查看选项 -->
+          <div class="flex gap-3">
+            <a href="https://arxiv.org/pdf/2406.10100" class="inline-flex items-center text-primary hover:text-primary/80 text-sm font-medium transition-colors duration-300">
+              <i class="fa fa-file-pdf-o mr-1"></i> View Paper
+            </a>
+            <a href="#" class="inline-flex items-center text-gray-700 hover:text-dark text-sm font-medium transition-colors duration-300">
+              <i class="fa fa-github mr-1"></i> View Project
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+    
+    <!-- 页脚 -->
+    <footer class="mt-16 text-center text-white text-sm pb-8 text-shadow">
+      <div class="inline-flex items-center justify-center space-x-4 mb-4">
+        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all duration-300 transform hover:scale-110">
+          <i class="fa fa-github"></i>
+        </a>
+        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all duration-300 transform hover:scale-110">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-primary hover:text-white transition-all duration-300 transform hover:scale-110">
+          <i class="fa fa-envelope"></i>
+        </a>
+      </div>
+      <p>© 2025 SkySense Project. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- 交互效果脚本 -->
+  <script>
+    // 平滑滚动效果
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href'))?.scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    
+    // 页面加载动画
+    document.addEventListener('DOMContentLoaded', () => {
+      // 为所有卡片添加淡入效果
+      const cards = document.querySelectorAll('.card-hover');
+      cards.forEach((card, index) => {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(20px)';
+        card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        
+        setTimeout(() => {
+          card.style.opacity = '1';
+          card.style.transform = 'translateY(0)';
+        }, 100 + index * 100);
+      });
+    });
+    
+    // 图片加载错误处理
+    document.querySelectorAll('img').forEach(img => {
+      img.addEventListener('error', function() {
+        // 对于背景图片的错误处理
+        if(this.closest('.fixed.inset-0')) {
+          this.src = 'https://picsum.photos/id/1018/1920/1080';
+          this.alt = 'Earth from space (fallback)';
+        }
+        // 对于会议logo的错误处理
+        else if(this.classList.contains('conference-logo')) {
+          this.src = `https://picsum.photos/id/${Math.floor(Math.random() * 10) + 30}/60/30`;
+        } 
+        // 对于卡片详情图片的错误处理
+        else if(this.classList.contains('card-image')) {
+          this.src = `https://picsum.photos/id/${Math.floor(Math.random() * 10) + 40}/${this.closest('.md:col-span-2') ? '800/200' : '400/200'}`;
+        }
+        // 对于Overview图片的错误处理
+        else if(this.closest('section h2').textContent === 'Overview') {
+          this.src = 'https://picsum.photos/id/35/600/400';
+          this.alt = 'SkySense Overview Visualization (placeholder)';
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
+    
