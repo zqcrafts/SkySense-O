@@ -120,6 +120,31 @@ Then execute above command.
     year      = {2025},
     pages     = {14733-14744}
 }
+
+@article{wu2025semantic,
+  author       = {Wu, Kang and Zhang, Yingying and Ru, Lixiang and Dang, Bo and Lao, Jiangwei and Yu, Lei and Luo, Junwei and Zhu, Zifan and Sun, Yue and Zhang, Jiahao and Zhu, Qi and Wang, Jian and Yang, Ming and Chen, Jingdong and Zhang, Yongjun and Li, Yansheng},
+  title        = {A semantic‑enhanced multi‑modal remote sensing foundation model for Earth observation},
+  journal      = {Nature Machine Intelligence},
+  year         = {2025},
+  doi          = {10.1038/s42256-025-01078-8},
+  url          = {https://doi.org/10.1038/s42256-025-01078-8}
+}
+
+@inproceedings{guo2024skysense,
+    author    = {Guo, Xin and Lao, Jiangwei and Dang, Bo and Zhang, Yingying and Yu, Lei and Ru, Lixiang and Zhong, Liheng and Huang, Ziyuan and Wu, Kang and Hu, Dingxiang and He, Huimei and Wang, Jian and Chen, Jingdong and Yang, Ming and Zhang, Yongjun and Li, Yansheng},
+    title     = {SkySense: A Multi-Modal Remote Sensing Foundation Model Towards Universal Interpretation for Earth Observation Imagery},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {27672-27683}
+}
+
+@article{luo2024skysensegpt,
+  title={Skysensegpt: A fine-grained instruction tuning dataset and model for remote sensing vision-language understanding},
+  author={Luo, Junwei and Pang, Zhen and Zhang, Yongjun and Wang, Tingzhu and Wang, Linlin and Dang, Bo and Lao, Jiangwei and Wang, Jian and Chen, Jingdong and Tan, Yihua and others},
+  journal={arXiv preprint arXiv:2406.10100},
+  year={2024}
+}
 ```
 
 ## Acknowledgement
